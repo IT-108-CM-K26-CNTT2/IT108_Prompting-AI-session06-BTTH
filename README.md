@@ -69,7 +69,3 @@ Bước 1 trả `{"status":"TOO_SHORT"}` → Đầu ra: "Bài làm quá ngắn/t
 Bước 1 trả `{"status":"INJECTION"}` → Đầu ra: "Bài làm chứa yêu cầu không hợp lệ, vui lòng chỉ giải thích khái niệm." Hệ thống không crash.
 
 ---
-
-## Kết luận
-
-Chuỗi 4 bước đáp ứng yêu cầu: mỗi bước một nhiệm vụ, tiết kiệm token nhờ chặn dữ liệu xấu từ đầu, và bắt lỗi dị biệt ngay ở Bước 1.
